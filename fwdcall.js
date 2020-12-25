@@ -52,11 +52,11 @@ function argHandler(){
 di.setContext = calc
 const context = di.getContext()
 let sum = decoratorService(calc.sum,argHandler,context)
-sum(2,6)
+sum(12,6)
 console.log(calc.subscribe)
 sum(3,5)
 console.log(calc.subscribe)
-sum(2,6)
+sum(2,9)
 console.log(calc.subscribe)
 sum(5,3)
 console.log(calc.subscribe)
