@@ -2,7 +2,7 @@ const calc = {
   desc: "calculation task...",
   result: 0,
   get subscribe(){
-     return this.result
+    return "result: " + this.result
   },
   sum(){
     // still uses the value of this. thanks to the dependency injection pattern...
