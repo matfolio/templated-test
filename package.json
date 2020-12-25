@@ -4,7 +4,7 @@
   "description": "Creating smart function using decorator for wrapper function for efficient call forwarding...",
   "main": "fwdcall.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Testing out the test scripts...\"",
     "start": "node server.js"
   },
   "keywords": [],
